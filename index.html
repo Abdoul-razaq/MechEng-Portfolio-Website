@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">NIYIGENA Abdoul Razak</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a> </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">NIYIGENA Abdoul Razak</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#certificates" onclick="toggleMenu()">Certificates</a> </li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="my profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Abdoul Razak</h1>
+        <p class="section__text__p2">Mechanical | Production Engineer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2"
+           onclick="window.open('https://drive.google.com/file/d/10G18ngpuY7ulNkingoYmDFcnezNuc4xx/view?usp=sharing', '_blank')">
+         Download CV
+          </button>
+
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/abdoul-razak-niyigena/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Abdoul-razaq'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="skills icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>UNIVERSITY OF RWANDA<br />May/2022 - June/2026</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Degree</h3>
+              <p>B.Sc. Bachelors Degree in<br />Mechanical Engineering : Production</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Final Year Mechanical Engineering : Production student with a focus on <b>production systems</b> and a strong foundation in <b>design, simulation</b>, and <b>CNC machining using G-code</b>. I am known for translating conceptual ideas into optimized mechanical models and simulations. I’m eager to apply my technical skills in <b>CAD/CAM</b> and <b>manufacturing processes</b> to support engineering teams in delivering efficient, high-quality solutions. Open to <b>full-time roles</b> or <b>internships</b> where I can contribute meaningfully and grow professionally.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Design and Simulation</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SOLIDWORKS</h3>
+                  <p>Professional</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Matlab Programming</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Simulink</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python Programming</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>3D Printing and CNC Routers</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Drawing</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Soft and Tech Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Arduino Programming</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Analytics Tools</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Office Suite</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML and CSS</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Wheel Loader</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1l55jKE7U52HixHG0sSz7UBCp5C20Hh4J?usp=sharing'"
+              >
+                Project Files
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1uPjmFAFUn2KeVpfLv25pLpvYYufO7yzf/view?usp=sharing'"
+              >
+             Preview
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Quadcopter (DRONE)</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1KJfaaTkQ8qlST5gpXXZC94DJ-6rO-8it?usp=sharing'"
+              >
+                Project Files
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1_WHj3Z9Po3Bou1WdKg5qqBBXUPT7-k_v/view?usp=sharing'"
+              >
+               Preview
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">4Stroke Engine</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1Qupq-mYJoGhZ253iKyksoQYOLF_L9fFr?usp=sharing'"
+              >
+                Project Files
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1oKKbDuHmJqms66YvIMTAgefDjOXBZgwR/view?usp=sharing'"
+              >
+               Report
+              </button>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.JPG"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Esp32 Rover Wifi Robot Control</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1ADjEz-Q1EzjMAnaJlFNxU81bpIysU7vf?usp=sharing'"
+              >
+                Project Files
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href= 'https://drive.google.com/file/d/1fZ8AXd7FVSEtqvof2oDym64goN31vTUm/view?usp=sharing'"
+              >
+              Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Pancake Esp32 Robot for Mapping and Slam</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1PLMbQzY8nJXFd6elGClBNuugb4qsCrSX?usp=sharing'"
+              >
+                Project Files
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1GjAbkDE9KD8YgbsspGrXMwu2havUGJPG/view?usp=sharing'"
+              >
+             Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-6.JPG"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">field seeder system vehicle</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1MXwIBNj1GJj4KdnibFTLcTyUBwbALgAy?usp=sharing'"
+              >
+                Project Files
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1picrH05QwN9tn3sEPhjQsksmM8BVLBYS/view?usp=sharing'"
+              >
+              Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-7.PNG"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Differential gear-box</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1tTXeTk1TYV3BYr_ECkhsCfwRgLMcdUTl?usp=sharing'"
+              >
+               Project Files
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1NVt0DozmngGpn9qgU5sb_c8dQBCHp44n/view?usp=sharing'"
+              >
+            Preview
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-8.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Design & Control of inverted pendulum</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1JoOGyLyAgCyqaY6ZYqvq1M5enD7O2UKt?usp=sharing'"
+              >
+                Project Files
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1PU5TO_LkX87LJCi8pxi2cgD8i02T1XqS/view?usp=sharing'"
+              >
+                Report
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-9.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">NXTway-GS pendulum</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/drive/folders/1kr4sivxAcGr2UMghVcNmAq9OkzJZpKrz?usp=sharing'"
+              >
+                Project Files
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/10bCsDtbZSp4vAKmVkmFPkpW2T79hNFcr/view?usp=sharing'"
+              >
+               Report
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#certificates'"
+      />
+    </section>  
+  <section id="certificates">
+  <p class="section__text__p1">Discover My</p>
+  <h1 class="title">Certificates</h1>
+  <br>
+  <div class="cert-container">
+    <!-- LEFT COLUMN -->
+    <div class="cert-column">
+      <div class="cert-item">
+        <a href="https://drive.google.com/file/d/1ne0j-NZEQEO6AhPZy0Tq72BAzz2RveOv/view?usp=sharing" target="_blank">SOLIDWORKS CSWA CAD Design Associate</a>
+        <br>
+        <p class="cert-level"> - Dassault systems</p>
+      </div>
+
+      <div class="cert-item">
+        <a href="./assets/C++ Programming Mindluster_Certificate.jpg" target="_blank">Programming in C++ Certification</a>
+        <br>
+        <p class="cert-level"> - Mindluster.com</p>
+      </div>
+
+      <div class="cert-item">
+        <a href="./assets/NIYIGENA Abdoul Razak - Data Analysis Bootcamp Master Data Science Skills.jpg" target="_blank">Data Analysis Bootcamp: Master Data science Skills</a>
+        <p class="cert-level"> - Udemy</p>
+      </div>
+
+      <div class="cert-item">
+        <a a href="./assets/Statistics Mindluster_Certificate.jpg" target="_blank">Statistical Analysis </a>
+        <br>
+        <p class="cert-level"> - Mindluster</p>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="cert-column">
+      <div class="cert-item">
+        <a href="./assets/SOLIDWORKS CSWA CAD Design Associate Certificate Results png.jpg" target="_blank">SOLIDWORKS CSWA CAD Design Associate Exam Result</a>
+        <br>
+        <p class="cert-level"> - Dassault systems</p>
+      </div>
+
+      <div class="cert-item">
+        <a href="./assets/Modern Python Programming - Mindluster_Certificate.jpg" target="_blank">Modern Python Programming</a>
+        <br>
+        <p class="cert-level"> - Mindluster</p>
+      </div>
+
+      <div class="cert-item">
+        <a href="./assets/Alx Ventures founder's Academy Certificate.png" target="_blank">Alx Ventures Founder Academy </a>
+        <br>
+        <p class="cert-level"> - Alx Africa</p>
+      </div>
+
+      <div class="cert-item">
+        <a href="./assets/AICE Certificate - Abdoul Razak NIYIGENA.png" target="_blank">AI for Career Essentials</a>
+        <br>
+        <p class="cert-level"> - Alx Africa</p>
+      </div>
+
+    </div>
+    </div> 
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+  </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:razaquepearly01@gmail.com">razaquepearly01@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/abdoul-razak-niyigena/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Abdoul-razak.  All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
